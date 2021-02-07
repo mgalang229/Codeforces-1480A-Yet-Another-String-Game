@@ -25,7 +25,7 @@ int main() {
  			} else {
  				// if 'i' is odd, then it's Bob's turn
  				if (s[i] == 'z') {
- 					// if the current is 'z', then there is no other choice to decrease
+ 					// if the current is 'z', then there is no other choice but to decrease
  					// its decimal representation, meaning the previous letter in the alphabet
  					s[i]--;
  				} else {
